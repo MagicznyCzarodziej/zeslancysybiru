@@ -1,0 +1,35 @@
+#gallery-title{
+	background-color: #78909C;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-size: 40px;
+}
+#controls{
+	display: flex;
+	flex-wrap: nowrap;
+	text-align: center;
+}
+
+#preview{
+	text-align: center;
+}
+#preview img{
+	height: 600px;
+	vertical-align: top;
+	box-shadow: 1px 1px 3px black, -1px -1px 3px black;
+	margin: 20px 0 20px 0;
+}
+
+#left, #right{
+	flex-basis: 100px;
+	background-color: #607D8B;
+	cursor: pointer;
+	font-size: 40px;
+}
+
+#gallery-title{
+	flex-grow: 1;
+}

@@ -1,0 +1,12 @@
+#deportees-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#deportees-box a{
+	display: block;
+}
+#deportees-box img{
+	max-height: 290px;
+	display: block;
+}
